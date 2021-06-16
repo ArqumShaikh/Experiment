@@ -1,9 +1,16 @@
 
+// Hello Worls Program
+
 #include<stdo.h>
 
 int main()
 {
-	printf("Hello World");
+	helloWorld();
 	return 0;
+}
+ 
+void helloWorld(){
+	printf("Hello World");
+        printf("Awesome World!!")	
 }
 
