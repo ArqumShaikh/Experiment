@@ -2,15 +2,15 @@
 // Hello Worls Program
 
 #include <stdio.h>
-void helloWorld();
+void greeting(char name[]);
 int main()
 {
-	helloWorld();
+	char name[] = "Alia Bhat"; 
+	greeting(name);
 	return 0;
 }
  
-void helloWorld(){
-	printf("Hello World");
-        printf("Awesome World!!");	
+void greeting(char name[]){
+	printf("Hey!Where were you?..%s",name); 	
 }
 
